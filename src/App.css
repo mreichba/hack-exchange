@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -15,7 +16,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 15vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +25,30 @@
   color: white;
 }
 
+h1{
+  margin-bottom: 0px;
+}
+
+h2{
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.exchangeBox{
+  min-height: 80vh;
+  background-color: rgb(12, 44, 80);
+}
+
+.xFrom{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+label{
+  margin: 0 10px 0 10px;
+}
 .App-link {
   color: #61dafb;
 }
