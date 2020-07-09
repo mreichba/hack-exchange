@@ -62,7 +62,6 @@ class App extends React.Component {
         <section className='exchangeBox'>
           <div className='xFrom'>
             <form>
-
               <label htmlFor='fromAmount'>Amount</label>
               <input
                 name='fromAmount'
@@ -83,8 +82,8 @@ class App extends React.Component {
                 onChange={e => this.setFromChange(e.target.value)}
               >
                 <option value='USD'>USD</option>
-                <option value='EUR'>EUR</option>
-                <option value=''>...</option>
+                {/* <option value='EUR'>EUR</option> */}
+                {/* <option value=''>...</option> */}
               </select>
 
               <label htmlFor='toCountry'>To</label>
@@ -99,12 +98,12 @@ class App extends React.Component {
                 <option value='USD'>USD</option>
                 <option value='EUR'>EUR</option>
                 <option value='AED'>AED</option>
-                <option value=''>...</option>
+                {/* <option value=''>...</option> */}
               </select>
             </form>
-          </div>
-          <div className='answer'>
-            <p> {this.state.amount} {this.state.from} = {(this.state.rate[Object.keys(this.state.rate)[0]] * this.state.amount).toFixed(3)}  {this.state.to}</p>
+            <div className='answer'>
+              <p> {this.state.amount} {this.state.from} = {(this.state.rate[Object.keys(this.state.rate)[0]] * this.state.amount).toFixed(3)}  {this.state.to}</p>
+            </div>
           </div>
         </section>
       </div>
