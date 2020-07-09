@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: url(src/Media/BarsAndCoins.jpg); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#fromCountry, #toCountry{
+  border-radius: 5px;
+}
+
+#fromAmount {
+  margin-bottom: 20px;
 }

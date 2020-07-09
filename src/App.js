@@ -72,7 +72,7 @@ class App extends React.Component {
                 onChange={e => this.setAmount(e.target.value)}
               >
               </input>
-
+              <br />
               <label htmlFor='fromCountry'>From</label>
               <select
                 name='fromCountry'
