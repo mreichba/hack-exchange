@@ -3,7 +3,8 @@
   color: white;
   background-image: url(./Media/GoldTrading.jpg) ;
   background-repeat: no-repeat;
-  max-height: 100vh;
+  background-size: cover ;
+  height: 100vh;
 
 }
 
@@ -20,12 +21,12 @@
 
 .App-header {
   /* background-color: #282c34; */
-  min-height: 10vh;
+  /* min-height: 10vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 2vmin);
   color: white;
 }
 
@@ -39,11 +40,11 @@ h1{
 h2{
   margin-top: 0px;
   margin-bottom: 0;
-  font-size: calc(10px + 2vmin);;
+  font-size: calc(20px + 2vmin);
 }
 
 .exchangeBox{
-  min-height: 78vh;
+  /* height: 82.8vh; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -52,8 +53,8 @@ h2{
 }
 
 .xFrom{
-  padding: 15px 20px 0 10px;
-  margin: 20vmin 0 0;
+  padding: 35px 40px 0 30px;
+  margin: 15vmin 0 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -61,15 +62,31 @@ h2{
   border-radius: 4px;
   background-color: black;
   opacity: .8;
+  font-size: calc(15px + 2vmin)
+}
+#fromCountry, #toCountry{
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#fromAmount {
+  margin-bottom: 50px;
 }
 
 label{
   margin: 0 10px 0 10px;
   opacity: 1;
 }
+
 input{
   opacity: 1;
+  font-size: calc(20px + 2vmin)
 }
+
+select{
+  font-size: calc(20px + 2vmin)
+}
+
 .App-link {
   color: #61dafb;
 }

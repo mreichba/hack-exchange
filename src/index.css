@@ -12,10 +12,3 @@ code {
     monospace;
 }
 
-#fromCountry, #toCountry{
-  border-radius: 5px;
-}
-
-#fromAmount {
-  margin-bottom: 20px;
-}
