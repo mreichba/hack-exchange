@@ -48,7 +48,7 @@ class App extends React.Component {
     }, () => this.apiCall())
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.apiCall();
   }
   render() {
@@ -77,13 +77,11 @@ class App extends React.Component {
                 name='fromCountry'
                 id='fromCountry'
                 required
-                defaultValue='USD'
                 value={this.state.from}
                 onChange={e => this.setFromChange(e.target.value)}
               >
                 <option value='USD'>USD</option>
                 {/* <option value='EUR'>EUR</option> */}
-                {/* <option value=''>...</option> */}
               </select>
 
               <label htmlFor='toCountry'>To</label>
@@ -91,7 +89,6 @@ class App extends React.Component {
                 name='toCountry'
                 id='toCountry'
                 required
-                defaultValue='EUR'
                 value={this.state.to}
                 onChange={e => this.setToChange(e.target.value)}
               >
@@ -147,7 +144,6 @@ class App extends React.Component {
                 <option value="UYU">UYU</option>
                 <option value="VND">VND</option>
                 <option value="ZAR">ZAR</option>
-                {/* <option value=''>...</option> */}
               </select>
             </form>
             <div className='answer'>
