@@ -4,7 +4,7 @@
   background-image: url(./Media/GoldTrading.jpg) ;
   background-repeat: no-repeat;
   background-size: cover ;
-  height: 100vh;
+  
 
 }
 
@@ -21,7 +21,7 @@
 
 .App-header {
   /* background-color: #282c34; */
-  /* min-height: 10vh; */
+  height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,7 +44,7 @@ h2{
 }
 
 .exchangeBox{
-  /* height: 82.8vh; */
+  height: 80vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -54,7 +54,7 @@ h2{
 
 .xFrom{
   padding: 35px 40px 0 30px;
-  margin: 15vmin 0 0;
+  margin: 20vmin 30px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -62,7 +62,7 @@ h2{
   border-radius: 4px;
   background-color: black;
   opacity: .8;
-  font-size: calc(15px + 2vmin)
+  font-size: 5vmin
 }
 #fromCountry, #toCountry{
   border-radius: 5px;
@@ -80,11 +80,11 @@ label{
 
 input{
   opacity: 1;
-  font-size: calc(20px + 2vmin)
+  font-size: 5vmin;
 }
 
 select{
-  font-size: calc(20px + 2vmin)
+  font-size: 5vmin;
 }
 
 .App-link {
